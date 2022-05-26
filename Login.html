@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    .main-wrapper{
+      height: 100vh;
+      background-color: #575453;
+    }
+    ul#hori0 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+  }
+  
+  li#hori0 {
+    float:left;
+    text-align: center;
+    
+  }
+  
+  li#hori0 a {
+    display: block;
+    color: rgb(89, 89, 89);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li#hori0 a:hover {
+    color: red;
+  }
+
+  .btn4 {
+      width: 25%;
+  }
+  </style>
+  
+</head>
+<body>
+
+<div class="main-wrapper container-fluid">
+  <div class="container" style="height: 15%;">
+  <br>
+  <a class="button glyphicon glyphicon-arrow-left" style="color: red;"></a>  
+  </div>
+  <div class="media" style="margin: 40px;">
+    <div class="media-body">
+      <h4 class="media-heading" style="color: white;">Welcome Back</h4>
+      <p style="color: white;">Login to continue</p>
+    </div>
+    <div class="media-right">
+      <img src="download.png" class="media-object" style="width: 50px">
+    </div>
+  </div>
+  <div class="form-group" style="margin: 40px;">
+    <input type="text" name="username" id="username" tabindex="1" class="form-control" style=" border-color: red ; background-color: #575453;" placeholder="Email" value="">
+  </div>
+  <div class="form-group" style="margin: 40px;">
+    <input type="password" name="password" id="password" tabindex="2" class="form-control" style=" border-color: red ; background-color: #575453;" placeholder="Password">
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <a tabindex="5" class="forgot-password">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group" style="margin: 40px;">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" style="background-color: red;" value="Log In">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <a tabindex="5" class="forgot-password">Login with Phone Number </a>
+          <br>
+          <a tabindex="5" class="forgot-password">OR <br> Create an Account</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar navbar-default navbar-fixed-bottom" style="background-color:black;" id="hori0">
+    <nav>
+       <ul id="hori0">
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-home"></span><br></a></li>
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-inbox"></span><br></a></li>
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-search"></span><br></a></li>
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-menu-hamburger"></span><br></a></li>
+       </ul>
+    </nav>
+  </div>
+
+
+</div>
+
+</body>
+</html>

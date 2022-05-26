@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    .main-wrapper{
+      height: 100vh;
+      background-color: #575453;
+    }
+    .corner{
+      border-radius: 15px;
+      width: auto;
+      height: auto;
+    }
+    ul#hori0 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+  }
+  
+  li#hori0 {
+    float:left;
+    text-align: center;
+    
+  }
+  
+  li#hori0 a {
+    display: block;
+    color: rgb(89, 89, 89);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li#hori0 a:hover {
+    color: red;
+  }
+
+  .btn4 {
+      width: 25%;
+  }
+
+    
+  </style>
+</head>
+<body>
+
+<div class="main-wrapper container-fluid">
+
+  <div class="container" style="height: 15%;">
+    <h1 style="color: white;">Settings</h1>
+    <h4 style="color: white;">Profile & App Settings</h4>
+  </div>
+
+  <div class="container" style="display:flex; justify-content:center;height: 60px;">
+    <img src="verified-icon.jpg" alt="Lights" style="width:60px; height: 60px;">
+  </div>
+  <br>
+  <p style="color: white; text-align: center;">You have to login to access profile and history</p> 
+
+  <div class="form-group" style="margin-left: 20px; margin-right: 20px; margin-top: 10px; margin-bottom: 10px;">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" style="background-color: red;" value="Log In">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <ul class="list-group">
+      <li class="list-group-item">Notifications <span class="glyphicon glyphicon-chevron-right pull-right" style="margin-right: 0px;"></span></li>
+      <li class="list-group-item">Rate & Review <span class="glyphicon glyphicon-chevron-right pull-right" style="margin-right: 0px;"></span></li>
+      <li class="list-group-item">Version <span class="badge badge-primary">1.4.7(27)</span></li>
+      <li class="list-group-item">Privacy Policy <span class="glyphicon glyphicon-chevron-right pull-right" style="margin-right: 0px;"></span></li>
+      <li class="list-group-item">Terms & Conditions <span class="glyphicon glyphicon-chevron-right pull-right" style="margin-right: 0px;"></span></li>
+      <li class="list-group-item">Contact Us <span class="glyphicon glyphicon-chevron-right pull-right" style="margin-right: 0px;"></span></li>
+      <li class="list-group-item">Language <span class="glyphicon glyphicon-cog pull-right" style="margin-right: 0px;"></span></li>
+    </ul>
+    <!-- <div class="container container" style="background-color: rgb(123, 115, 115); height: 25px; text-align: center;">
+      Notifications <span class="glyphicon glyphicon-cog pull-right" style="margin-right: 0px;"></span>
+    </div> -->
+  </div>
+
+  <p style="text-align: center;color:white">CopryRight ©2022 OdaMakan all right reserved</p>
+
+
+
+  <div class="navbar navbar-default navbar-fixed-bottom" style="background-color:black;" id="hori0">
+    <nav>
+       <ul id="hori0">
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-home"></span><br></a></li>
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-inbox"></span><br></a></li>
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-search"></span><br></a></li>
+          <li id="hori0" class="btn4"><a href="#about"><span class="glyphicon glyphicon-menu-hamburger"></span><br></a></li>
+       </ul>
+    </nav>
+  </div>
+</div>  
+
+</body>
+</html>
